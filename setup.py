@@ -5,18 +5,18 @@ except ImportError:
 
 
 setup(
-    name='itsdangerous',
-    author='Armin Ronacher',
-    author_email='armin.ronacher@active-4.com',
-    version='0.24',
-    url='http://github.com/mitsuhiko/itsdangerous',
-    py_modules=['itsdangerous'],
-    description='Various helpers to pass trusted data to '
-                'untrusted environments and back.',
+    name="itsdangerous",
+    author="Armin Ronacher",
+    author_email="armin.ronacher@active-4.com",
+    version="2.2.0",
+    url="http://github.com/mitsuhiko/itsdangerous",
+    py_modules=["itsdangerous"],
+    description="Various helpers to pass trusted data to "
+    "untrusted environments and back.",
     zip_safe=False,
     classifiers=[
-        'License :: OSI Approved :: BSD License',
-        'Programming Language :: Python',
-        'Programming Language :: Python :: 3',
+        "License :: OSI Approved :: BSD License",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
     ],
 )
